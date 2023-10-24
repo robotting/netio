@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "compare": "cpp",
+        "types.h": "c",
+        "unistd.h": "c"
+    }
+}

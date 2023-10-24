@@ -3,6 +3,7 @@
         "fcntl.h": "c",
         "compare": "cpp",
         "types.h": "c",
-        "unistd.h": "c"
+        "unistd.h": "c",
+        "algorithm": "c"
     }
 }

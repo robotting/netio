@@ -16,7 +16,7 @@
 
 /* make connection to server */
 int
-netdial(int domain, int proto, char* local, int local_port, char* server, int port)
+socket_dial(int domain, int proto, char* local, int local_port, char* server, int port)
 {
     struct addrinfo hints, * local_res, * server_res;
     int s;
@@ -80,7 +80,7 @@ netdial(int domain, int proto, char* local, int local_port, char* server, int po
 /***************************************************************/
 
 int
-netannounce(int domain, int proto, char* local, int port)
+socket_listen(int domain, int proto, char* local, int port)
 {
     struct addrinfo hints, * res;
     char portstr[6];
